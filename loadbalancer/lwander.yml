@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v2
 kind: ConfigMap
 metadata:
   name: spinnaker-demo-config
@@ -45,7 +45,7 @@ spec:
 ---
 
 kind: Service
-apiVersion: v1
+apiVersion: v2
 metadata:
   name: spinnaker-demo
   namespace: default
